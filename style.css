@@ -18,7 +18,6 @@ body
     font-family: 'Poppins', sans-serif;
     margin-top: 60px;
     color:var(--text-color);
-    font-size: 10px;
 }
 
 h1{
@@ -36,6 +35,9 @@ h2{
 }
 h3{
     font-size: 1.8rem;
+}
+h4{
+    font-size: 1.4rem;
 }
 
 header
@@ -108,7 +110,8 @@ main{
 .main-content{
     flex:2fr;
     width: 100%;
-    
+    display: flex;
+    flex-direction: column;
 }
 .main-img{
     flex:1fr;
@@ -116,12 +119,13 @@ main{
 }
 
 .main-content p{
-    margin-bottom: 60px;
+    text-align: justify;
+    margin-bottom: 2.5rem;
     opacity: .8;
 }
 
 .main-content h1{
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 #hero-image{
@@ -132,17 +136,23 @@ main{
 {
     font-size: 1rem;
     text-decoration: none;
+    width:170px;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
     color:white;
+    border:none;
     font-weight: 400;
     background-color: var(--secondary-color);
     transition: .1s ease;
+}
+.primary-btn{
+    padding:11px 31px 11px 31px;
 }
 
 .primary-btn:hover
 {
     background-color:var(--primary-color);
+    
 }
 .secondary-btn:hover{
     background-color:var(--primary-color);
@@ -170,25 +180,15 @@ main{
     color: var(--primary-color);
 }
 
-.plus{
-    position: fixed;
-    width:100px;
-    opacity:.2;
-    top:5;
-    left:5;
-    transform: rotate(30deg);
-}
-
 .companies{
-    min-height: 20vh;
+    height: 150px;
     width:100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
 }
-.companies p{
-    opacity: 10;
+.companies h4{
+    text-align: center;
 }
 
 .company-collections
@@ -196,7 +196,8 @@ main{
     display: grid;
     margin: auto;
     align-items: center;
-    grid-template-columns: repeat( 5, minmax(200px, 1fr) );
+    grid-gap: 20px;
+    grid-template-columns: repeat( 5, 1fr );
 }
 
 .company-logo{
@@ -206,8 +207,6 @@ main{
 .block{
     
     height:350px;
-    width:80%;
-
     margin: auto;
     margin-top: 50px;
     display: flex;
@@ -217,12 +216,12 @@ main{
 
 .block-content-left, .block-content-right
 {
-    flex:6;
-    justify-self: flex-start;   
+    flex:6; 
     text-align:justify; 
 }
 .block-content-left{
     padding-right: 150px;
+    
 }
 .block-content-right{
     padding-left: 150px;
@@ -302,24 +301,89 @@ footer a{
         padding-right:2%;
     }
     .content{
-        width: 100vw;
+        width: 90vw;
     }
     main{
-        flex-direction: column;
-        
+        flex-direction: column;     
+        width:80vw;
+        margin: auto;   
     }
     .main-content{
+        flex:auto;
         align-items:center;
         justify-content:center;
+        
     }
+ 
     .main-img{
-        width:100px;
-        margin: auto;
+        flex:auto;
+        text-align: center;
+    }
+    #hero-image{
+        width:50%;
+    }
+    .block{
+        flex-direction: column;
+    }
+    .block-content-left{
+        padding-right: 20px;
+    }
+    .block-content-right{
+        padding-left: 20px;
+    }
+    .block-img img{
+        width:200px;
+    }
+    #shopify{
+        display:none;
+    }
+    .who-is-this ul{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .company-collections
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 0px;
+    }
+    .block-img{
+        justify-self: flex-end;
+    }
+    .block-content{
+        justify-self:flex-end;
     }
 }
 @media only screen and (max-width: 1089px)
 {
     .nav-div{
         position:absolute;
+    }
+}
+@media only screen and (max-width: 680px)
+{
+    :root{
+        font-size: 13px;
+    }
+    .btn-grp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .primary-btn , .secondary-btn
+    {
+        width: 200px;
+        font-size: 1.2rem;
+    }
+    .main-content h1{
+        margin-bottom: 1.4rem;
+    }
+    .secondary-btn
+    {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .company-logo{
+        width:130px;
     }
 }

@@ -20,7 +20,7 @@
     <header>
 
         <div class="logo">
-            <img src="./img/logo.webp" alt="Logo"><h3>&nbsp;&nbsp;SharpestMinds</h3>
+            <img src="./img/logo.webp" alt="Logo"><h4>&nbsp;&nbsp;SharpestMinds</h4>
         </div>
 
         <nav class="nav-div">
@@ -51,9 +51,10 @@
         <div class="main-content">
             <h1>Find a data science mentor.<br> Don't pay until you're hired.</h1>
             <p>Work on a project with a professional data scientist. Prepare for interviews, polish your resume, and get hired.</p>
-            <a class='primary-btn'  href="#">Find Mentor</a>
-            <a class='secondary-btn'  href="#">Become Mentor</a>
-
+            <div class="btn-grp">
+            <button class='primary-btn' onclick="window.location.href = '#';">Find Mentor</button>
+            <button class='secondary-btn' onclick="window.location.href = '#';">Become Mentor</button>
+            </div>
             <p id='question'>Wondering which data career is right for you? &nbsp; &nbsp; <a href=''>Take our career quiz</a></p>
         </div>
 
@@ -62,11 +63,11 @@
     <!-- Companies Section -->
 
     <section class="companies">
-        <p>Work with mentors from world-class companies</p>
+        <h4>Work with mentors from world-class companies</h4>
 
         <div class="company-collections">
 
-            <img src="./img/shopify.webp" alt="shopify" class='company-logo'>
+            <img src="./img/shopify.webp" id='shopify' alt="shopify" class='company-logo'>
             <img src="./img/airbnb.webp" alt="airbnb" class='company-logo'>
             <img src="./img/spotify.webp" alt="spotify" class='company-logo'>
             <img src="./img/google.webp" alt="google" class='company-logo'>

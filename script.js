@@ -1,4 +1,19 @@
-$(document).ready(()=>{
+$(document).ready(()=>
+{
+
+
+    // Redirect logo click to homepage
+    $('.logo').click(()=>
+    {
+        window.location.href = "./";
+    })
+
+
+
+
+
+    // Menu bar for Mobile
+
     $('#menu').click(()=>{
         $('.nav-div').toggleClass('nav-div-visible');
 
@@ -17,6 +32,8 @@ $(document).ready(()=>{
     })
 
 
+
+    //Testimonial Slider
     $('.slider').slick({
         nextArrow: '<i class="fa fa-chevron-right slick-next"></i>',
         prevArrow: '<i class="fa fa-chevron-left slick-prev"></i>',    

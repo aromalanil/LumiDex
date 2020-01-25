@@ -2,197 +2,353 @@
 <!-- Date : 23-01-2013 07:00PM IST -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Aromal Anil">
-    <link rel="icon" href="./img/logo.webp" sizes="16x16">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <head>
     <title>Sharpestminds</title>
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Aromal Anil" />
+    <link rel="icon" href="./img/logo.webp" sizes="16x16" />
 
-<body>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Poppins Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Slick Slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
+  <body>
     <!-- Navigation Bar -->
 
     <header>
+      <div class="logo">
+        <img src="./img/logo.webp" alt="Logo" />
+        <h4>&nbsp;&nbsp;SharpestMinds</h4>
+      </div>
 
-        <div class="logo">
-            <img src="./img/logo.webp" alt="Logo"><h4>&nbsp;&nbsp;SharpestMinds</h4>
-        </div>
+      <nav class="nav-div">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#">Mentorship</a></li>
+          <li><a class="nav-link" href="#">Hire</a></li>
+          <li><a class="nav-link" href="#">Contact</a></li>
+          <li><a class="nav-link" href="#">Blog</a></li>
+          <li><a class="nav-link" href="#">FAQ</a></li>
+          <li><a class="nav-link" href="#">Login</a></li>
+        </ul>
+      </nav>
 
-        <nav class="nav-div">
-            <ul class='nav-links'>
-                <li><a class='nav-link' href="#">Mentorship</a></li>
-                <li><a class='nav-link' href="#">Hire</a></li>
-                <li><a class='nav-link' href="#">Contact</a></li>
-                <li><a class='nav-link' href="#">Blog</a></li>
-                <li><a class='nav-link' href="#">FAQ</a></li>
-                <li><a class='nav-link' href="#">Login</a></li>
-            </ul>
-        </nav>
-
-        <div class="menu"><img src="./img/menu.svg" alt="" class="menu-icon" id='menu'></div>        
-
+      <div class="menu">
+        <img src="./img/menu.svg" alt="" class="menu-icon" id="menu" />
+      </div>
     </header>
- 
+
     <div class="content">
+      <!-- Main Section -->
 
-    <!-- Main Section -->
-
-    <main>
-
+      <main>
         <div class="main-img">
-            <img id='hero-image' src="./img/hero-image.svg" alt="">
+          <img id="hero-image" src="./img/hero-image.svg" alt="" />
         </div>
 
         <div class="main-content">
-            <h1>Find a data science mentor.<br> Don't pay until you're hired.</h1>
-            <p>Work on a project with a professional data scientist. Prepare for interviews, polish your resume, and get hired.</p>
-            <div class="btn-grp">
-            <button class='primary-btn' onclick="window.location.href = '#';">Find Mentor</button>
-            <button class='secondary-btn' onclick="window.location.href = '#';">Become Mentor</button>
-            </div>
-            <p id='question'>Wondering which data career is right for you? &nbsp; &nbsp; <a href=''>Take our career quiz</a></p>
+          <h1>
+            Find a data science mentor.<br />
+            Don't pay until you're hired.
+          </h1>
+          <p>
+            Work on a project with a professional data scientist. Prepare for
+            interviews, polish your resume, and get hired.
+          </p>
+          <div class="btn-grp">
+            <button class="primary-btn" onclick="window.location.href = '#';">
+              Find Mentor
+            </button>
+            <button class="secondary-btn" onclick="window.location.href = '#';">
+              Become Mentor
+            </button>
+          </div>
+          <p id="question">
+            Wondering which data career is right for you? &nbsp; &nbsp;
+            <a href="">Take our career quiz</a>
+          </p>
         </div>
+      </main>
 
-    </main>
-    
-    <!-- Companies Section -->
+      <!-- Companies Section -->
 
-    <section class="companies">
+      <section class="companies">
         <p>Work with mentors from world-class companies</p>
 
         <div class="company-collections">
-
-            <img src="./img/shopify.webp" id='shopify' alt="shopify" class='company-logo'>
-            <img src="./img/airbnb.webp" alt="airbnb" class='company-logo'>
-            <img src="./img/spotify.webp" alt="spotify" class='company-logo'>
-            <img src="./img/google.webp" alt="google" class='company-logo'>
-            <img src="./img/microsoft.webp" alt="microsoft" class='company-logo'>
-            
+          <img
+            src="./img/shopify.webp"
+            id="shopify"
+            alt="shopify"
+            class="company-logo"
+          />
+          <img src="./img/airbnb.webp" alt="airbnb" class="company-logo" />
+          <img src="./img/spotify.webp" alt="spotify" class="company-logo" />
+          <img src="./img/google.webp" alt="google" class="company-logo" />
+          <img
+            src="./img/microsoft.webp"
+            alt="microsoft"
+            class="company-logo"
+          />
         </div>
-    </section>
+      </section>
 
-
-    <section class="block block-left">
-        <div class='block-content-left'>
-            <h3 class='block-heading'>Learn from a pro</h3><br><br>
-            <p class="block-para">Build a full-stack data science project with your mentor. Learn how to write production code, get help when you’re stuck, and have regular one-on-one calls</p><br>
-            <a href="#" class="block-link">Check out some project examples</a>
-        </div>
-
-        <div class="block-img">
-            <img src="./img/video_call.svg" alt="">
-        </div>
-    </section>
-
-    <section class="block">
-        <div class="block-img">
-            <img src="./img/invest.svg" alt="">
-        </div>
-        <div class='block-content-right'>
-            <h3 class='block-heading'>Your mentor invests in you</h3><br><br>
-            <p class="block-para">Your mentor invests in your success through our income share agreement. Once you land a job, you'll repay your mentor a small share of your monthly salary for 12 months. If you don't land a qualifying job, you won't owe a cent
-            </p><br>
-            <a href="#" class="block-link">See the FAQ to learn more about our income share agreement</a>
-        </div>
-    </section>
-
-
-    <div class="breaker">
-        <h2>Beyond mentorship: get support at every step</h2><br>
-        <p>Once your mentor says you're ready, SharpestMinds has your back during your job search.</p>
-    </div>
-
-    <section class="block block-left">
-        <div class='block-content-left'>
-            <h3 class='block-heading'>Resume and profile review</h3><br><br>
-            <p class="block-para">Get expert eyes on your resume and online portfolio. We’ll work with you until they’re perfect</p><br>
+      <section class="block block-left">
+        <div class="block-content-left">
+          <h3 class="block-heading">Learn from a pro</h3>
+          <br /><br />
+          <p class="block-para">
+            Build a full-stack data science project with your mentor. Learn how
+            to write production code, get help when you’re stuck, and have
+            regular one-on-one calls
+          </p>
+          <br />
+          <a href="#" class="block-link">Check out some project examples</a>
         </div>
 
         <div class="block-img">
-            <img src="./img/resume.svg" alt="">
+          <img src="./img/video_call.svg" alt="" />
         </div>
-    </section>
+      </section>
 
-
-    <section class="block">
+      <section class="block">
         <div class="block-img">
-            <img src="./img/interview.svg" alt="">
+          <img src="./img/invest.svg" alt="" />
         </div>
-        <div class='block-content-right'>
-            <h3 class='block-heading'>Job search support</h3><br><br>
-            <p class="block-para">Get personalized career coaching from the SharpestMinds team. Learn how to reach out to companies effectively, and get connected to our hiring partners
-            </p><br>
+        <div class="block-content-right">
+          <h3 class="block-heading">Your mentor invests in you</h3>
+          <br /><br />
+          <p class="block-para">
+            Your mentor invests in your success through our income share
+            agreement. Once you land a job, you'll repay your mentor a small
+            share of your monthly salary for 12 months. If you don't land a
+            qualifying job, you won't owe a cent
+          </p>
+          <br />
+          <a href="#" class="block-link"
+            >See the FAQ to learn more about our income share agreement</a
+          >
         </div>
-    </section>
+      </section>
 
-    <section class="block block-left">
-        <div class='block-content-left'>
-            <h3 class='block-heading'>Practice interviews</h3><br><br>
-            <p class="block-para">Connect with other mentees for unlimited practice interviews. Form study teams, and make friendships that can last a lifetime</p><br>
+      <div class="breaker">
+        <h2>Beyond mentorship: get support at every step</h2>
+        <br />
+        <p>
+          Once your mentor says you're ready, SharpestMinds has your back during
+          your job search.
+        </p>
+      </div>
+
+      <section class="block block-left">
+        <div class="block-content-left">
+          <h3 class="block-heading">Resume and profile review</h3>
+          <br /><br />
+          <p class="block-para">
+            Get expert eyes on your resume and online portfolio. We’ll work with
+            you until they’re perfect
+          </p>
+          <br />
         </div>
 
         <div class="block-img">
-            <img src="./img/practice-interview.svg" alt="">
+          <img src="./img/resume.svg" alt="" />
         </div>
-    </section>
+      </section>
 
-    <section class="block">
+      <section class="block">
         <div class="block-img">
-            <img src="./img/community-meetings.svg" alt="">
+          <img src="./img/interview.svg" alt="" />
         </div>
-        <div class='block-content-right'>
-            <h3 class='block-heading'>Community events</h3><br><br>
-            <p class="block-para">Share your progress and get coached through common interview problems at twice-weekly office hour sessions, and attend seminars on job search tactics
-            </p><br>
+        <div class="block-content-right">
+          <h3 class="block-heading">Job search support</h3>
+          <br /><br />
+          <p class="block-para">
+            Get personalized career coaching from the SharpestMinds team. Learn
+            how to reach out to companies effectively, and get connected to our
+            hiring partners
+          </p>
+          <br />
         </div>
-    </section>
+      </section>
 
-    <section class="block block-left">
-        <div class='block-content-left'>
-            <h3 class='block-heading'>Salary negotiation</h3><br><br>
-            <p class="block-para">Get support throughout the salary negotiation process. On average, mentees have seen increases of over $3000 in base salary from salary negotiation alone</p><br>
+      <section class="block block-left">
+        <div class="block-content-left">
+          <h3 class="block-heading">Practice interviews</h3>
+          <br /><br />
+          <p class="block-para">
+            Connect with other mentees for unlimited practice interviews. Form
+            study teams, and make friendships that can last a lifetime
+          </p>
+          <br />
         </div>
 
         <div class="block-img">
-            <img src="./img/salary-negotiation.svg" alt="">
+          <img src="./img/practice-interview.svg" alt="" />
         </div>
-    </section>
+      </section>
 
+      <section class="block">
+        <div class="block-img">
+          <img src="./img/community-meetings.svg" alt="" />
+        </div>
+        <div class="block-content-right">
+          <h3 class="block-heading">Community events</h3>
+          <br /><br />
+          <p class="block-para">
+            Share your progress and get coached through common interview
+            problems at twice-weekly office hour sessions, and attend seminars
+            on job search tactics
+          </p>
+          <br />
+        </div>
+      </section>
 
-    <div class="who-is-this">
+      <section class="block block-left">
+        <div class="block-content-left">
+          <h3 class="block-heading">Salary negotiation</h3>
+          <br /><br />
+          <p class="block-para">
+            Get support throughout the salary negotiation process. On average,
+            mentees have seen increases of over $3000 in base salary from salary
+            negotiation alone
+          </p>
+          <br />
+        </div>
 
-        <h2>Who this is for</h2><br>
-        <p>You'll get the most out of SharpestMinds if at least some of the following are true:</p>
+        <div class="block-img">
+          <img src="./img/salary-negotiation.svg" alt="" />
+        </div>
+      </section>
+
+      <!-- Who is this for Section -->
+
+      <div class="who-is-this">
+        <h2>Who this is for</h2>
+        <br />
+        <p>
+          You'll get the most out of SharpestMinds if at least some of the
+          following are true:
+        </p>
         <ul>
-            <li>☑️ You're planning to look for a job within the next six months</li>
-            <li>☑️ You don't currently have a technical job</li>
-            <li>☑️ You're able to commit between 10 to 40 hours a week over the next 8-12 weeks</li>
-            <li>☑️ You've completed a couple of data science projects, machine learning MOOCs, and/or CS or ML university courses</li>
-            <li>☑️ You're comfortable writing code in Python</li>
-            <li>☑️ You've built at least one data processing pipeline, even if it's simple</li>
-            <li>☑️ You're based in the United States 🇺🇸 or Canada 🇨🇦</li>
+          <li>
+            ☑️ You're planning to look for a job within the next six months
+          </li>
+          <li>☑️ You don't currently have a technical job</li>
+          <li>
+            ☑️ You're able to commit between 10 to 40 hours a week over the next
+            8-12 weeks
+          </li>
+          <li>
+            ☑️ You've completed a couple of data science projects, machine
+            learning MOOCs, and/or CS or ML university courses
+          </li>
+          <li>☑️ You're comfortable writing code in Python</li>
+          <li>
+            ☑️ You've built at least one data processing pipeline, even if it's
+            simple
+          </li>
+          <li>☑️ You're based in the United States 🇺🇸 or Canada 🇨🇦</li>
         </ul>
 
-        <p>These don't all have to be true - but the more that are, the better the chances that your application will be accepted by a mentor.<br>
-            If you want advice on how to prepare for the program, get in touch! You can message us on chat or send us an email at contact@sharpestminds.com.</p>
-    </div>
+        <p>
+          These don't all have to be true - but the more that are, the better
+          the chances that your application will be accepted by a mentor.<br />
+          If you want advice on how to prepare for the program, get in touch!
+          You can message us on chat or send us an email at
+          contact@sharpestminds.com.
+        </p>
+      </div>
 
+      <!-- Testimonial Slider -->
+
+      <div class="slider">
+        <div class="slider-item">
+          <div class="slider-img-div">
+            <img
+              src="./img/customers/customer-1.jpeg"
+              alt=""
+              class="slider-img"
+            />
+            <h3 class="customer-name">Cheryl To</h3>
+            <p class="customer-title"><i>Data Scientist at RBC</i></p>
+          </div>
+          <p class="slider-text">
+            I went from zero job offers to 4 jobs offers in a couple of months.
+            The mentee community, the networking and the technical support are
+            second to none. This is the best platform for any data scientist
+            that wants to grow.
+          </p>
+        </div>
+
+        <div class="slider-item">
+          <div class="slider-img-div">
+            <img
+              src="./img/customers/customer-1.jpeg"
+              alt=""
+              class="slider-img"
+            />
+            <h3 class="customer-name">Dyllan McCreary</h3>
+            <p class="customer-title"><i>Data Scientist at ThinkData Works</i></p>
+          </div>
+          <p class="slider-text">
+            My mentor helped me fine-tune my skills and worked with me to build
+            the confidence I needed to ACE my data science interviews. He worked
+            tirelessly to recommend me to companies for which he felt I was a
+            good fit.
+          </p>
+        </div>
+
+        <div class="slider-item">
+          <div class="slider-img-div">
+            <img
+              src="./img/customers/customer-1.jpeg"
+              alt=""
+              class="slider-img"
+            />
+            <h3 class="customer-name">Omar Nada</h3>
+            <p class="customer-title"><i>Senior ML Engineer at Vathys (YC W18)</i></p>
+          </div>
+          <p class="slider-text">
+            I have been getting messages from recruiters all over the place. You
+            guys have completely changed my life around, went from 0 leads to
+            recruiters seeking me out for interviews. What you have pulled off
+            is actually amazing!!
+          </p>
+        </div>
+      </div>
     </div>
 
     <footer>
-        <p>Made with ❤️ by <a href='http://github.com/aromalanil' target="_blank">Aromal Anil</a></p>
+      <p>
+        Made with ❤️ by
+        <a href="http://github.com/aromalanil" target="_blank">Aromal Anil</a>
+      </p>
     </footer>
 
-
-
-
-<script src="./script.js"></script>
-</body>
-
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>

@@ -131,7 +131,7 @@ main{
     font-size: 1rem;
     text-decoration: none;
     width:170px;
-    padding: 10px 30px 10px 30px;
+    height:45px;
     border-radius: 20px;
     color:white;
     border:none;
@@ -181,9 +181,9 @@ main{
     flex-direction: column;
     align-items: center;   
 }
-.companies h4{
+.companies p{
     text-align: center;
-    opacity:.9;
+    opacity:1;
 }
 
 .company-collections
@@ -201,7 +201,7 @@ main{
 
 .block{
     
-    height:350px;
+    min-height:350px;
     margin: auto;
     margin-top: 50px;
     display: flex;
@@ -344,6 +344,14 @@ footer a{
     .block-content{
         justify-self:flex-end;
     }
+
+    .companies{
+        margin: 100px auto;
+        margin-top:50px;
+    }
+    .block{
+        margin: 80px auto;
+    }
 }
 @media only screen and (max-width: 1089px)
 {
@@ -403,6 +411,8 @@ footer a{
         width:80vw;
         margin:auto;
     }
+
+ 
 
 }
 @media only screen and (max-width: 680px)

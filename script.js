@@ -1,6 +1,6 @@
 $(document).ready(()=>{
     $('#menu').click(()=>{
-        $('.nav-div').toggleClass('nav-div-visible')
+        $('.nav-div').toggleClass('nav-div-visible');
 
         let img= $('.menu-icon').attr('src');
 
@@ -16,3 +16,8 @@ $(document).ready(()=>{
     }
     })
 })
+
+
+// function load_home() {
+//     document.getElementById("content").innerHTML='<object type="text/html" data="home.html" ></object>';
+// }

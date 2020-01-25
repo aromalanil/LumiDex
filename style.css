@@ -203,7 +203,6 @@ main{
     
     min-height:350px;
     margin: auto;
-    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -211,8 +210,11 @@ main{
 
 .block-content-left, .block-content-right
 {
-    flex:6; 
-    text-align:justify; 
+    flex:6;    
+}
+.block-para
+{
+    text-align: justify;
 }
 .block-content-left{
     padding-right: 150px;
@@ -237,9 +239,12 @@ main{
 
 .breaker{
     margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .breaker h2{
     color:rgb(2, 96, 173);
@@ -270,7 +275,9 @@ main{
 
 
 footer{
-    
+    position: absolute;
+    bottom:-1;
+    width: 100vw;
     color:white;
     margin-top: 100px;
     background-color: var(--secondary-color);
@@ -315,6 +322,10 @@ footer a{
     }
     .block{
         flex-direction: column;
+    }
+    .block-left
+    {
+        flex-direction: column-reverse;
     }
     .block-content-left{
         padding-right: 20px;
@@ -368,7 +379,7 @@ footer a{
         justify-content: center;
     }
     .menu-icon{
-        height:30px;
+        height:25px;
     }
     .nav-div {
         position:fixed;
@@ -381,7 +392,7 @@ footer a{
         height:100vh;
         display: flex;
         align-items: center; 
-        transition:.3s;
+        transition: .3s;
     }
     .nav-div-visible{
         left:0;
@@ -421,7 +432,7 @@ footer a{
         font-size: 13px;
     }
     .menu-icon{
-        height:25px;
+        height:20px;
     }
     .btn-grp{
         display: flex;
@@ -444,16 +455,16 @@ footer a{
     .company-logo{
         width:130px;
     }
+    .block{
+        margin: 40px auto;
+    }
     
     .who-is-this
     {
+        margin-top:50px;
         margin-left:-5vw;
         margin-right:-5vw;
         padding:50px 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius:40px;
-        background-color: rgba(91, 172, 234, 0.192);
+        border-radius:20px;
     }
 }

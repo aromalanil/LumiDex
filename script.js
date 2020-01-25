@@ -10,7 +10,8 @@ $(document).ready(()=>{
     if($('.nav-div').hasClass('nav-div-visible'))
     {
         $('.nav-link').click(()=>{
-            $('.nav-div').removeClass('nav-div-visible')
+            $('.nav-div').removeClass('nav-div-visible');
+            $('.menu-icon').attr('src','./img/menu.svg');
         })
     }
     })

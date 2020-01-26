@@ -384,7 +384,7 @@ p {
 }
 
 .embedded-div {
-    height: 500px;
+    height: 300px;
     overflow-y: scroll;
     display: grid;
     grid-gap: 20px;

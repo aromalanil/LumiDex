@@ -34,8 +34,9 @@ $(document).ready(()=>
     $('.slider').slick({
 
         nextArrow: '<i class="fa fa-chevron-right slick-next"></i>',
-        prevArrow: '<i class="fa fa-chevron-left slick-prev"></i>',    
-         
+        prevArrow: '<i class="fa fa-chevron-left slick-prev"></i>',
+        autoplay: true,
+        autoplaySpeed:7000,
     });
 
 })

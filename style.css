@@ -52,6 +52,10 @@ github: github.com/aromalanil
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root {
 
     --primary-color: #048BFC;
@@ -111,14 +115,24 @@ header {
     display: flex;
     width: 100vw;
     align-items: center;
+    justify-content: space-between;
     padding-left: 10vw;
     padding-right: 10vw;
     height: 60px;
 }
 
+.floatingNav {
+    box-shadow: 0px 1px 10px #999;
+  }
+  
+  /* To fix jump button + fixed-nav issue */
+  :target{
+    padding-top:60px;
+    margin-top:60px;
+  } 
+
 .logo {
     font-size: 1.15rem;
-    width: 100%;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -419,15 +433,6 @@ p {
 
 .slick-next {
     right: 25px;
-}
-
-.embedded-div {
-    height: 300px;
-    overflow-y: scroll;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-flow: dense;
 }
 
 .call-for {

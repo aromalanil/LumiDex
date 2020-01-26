@@ -5,11 +5,22 @@
 
 $(document).ready(() => {
 
+
+
     //To remove Loader on page load
     $(window).on('load', () => {
         $('.loader').fadeOut('fast');
     })
 
+
+    //NavBar Drop Shadow on scroll
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 10) {
+            $('header').addClass('floatingNav');
+        } else {
+            $('header').removeClass('floatingNav');
+        }
+    });
 
 
     // Menu bar for Mobile

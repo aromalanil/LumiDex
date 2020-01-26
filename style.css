@@ -559,7 +559,7 @@ footer a {
         top: 0;
         left: -60vw;
         opacity: 0;
-        background-color:  #1E42D5;
+        background-color:  var(--primary-color);
         width: 60vw;
         height: 100vh;
         display: flex;

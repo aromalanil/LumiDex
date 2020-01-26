@@ -1,5 +1,5 @@
 /* --------------------------------------------------------
-Style Sheet for SharpestMinds.com
+Style Sheet for LumiDex Landing Page
 
 version: 1.0
 last modified: 26-01-2020 by Aromal Anil
@@ -86,6 +86,9 @@ header {
     align-items: center;
     cursor: pointer;
 }
+.logo img{
+    width: 30px;
+}
 
 
 .logo a {
@@ -125,6 +128,7 @@ header {
 
 .menu {
     display: none;
+    cursor: pointer;
 }
 
 
@@ -496,7 +500,7 @@ footer a {
         width: 200px;
     }
 
-    #shopify {
+    #coco-cola {
         display: none;
     }
 
@@ -506,9 +510,10 @@ footer a {
     }
 
     .company-collections {
+        margin-top: 30px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-row-gap: 0px;
+        grid-row-gap: 20px;
     }
 
     .block-img {
@@ -554,7 +559,7 @@ footer a {
         top: 0;
         left: -60vw;
         opacity: 0;
-        background-color: rgb(50, 162, 253);
+        background-color:  #1E42D5;
         width: 60vw;
         height: 100vh;
         display: flex;

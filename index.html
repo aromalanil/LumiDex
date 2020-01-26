@@ -2,369 +2,377 @@
 <!-- Date : 23-01-2013 07:00PM IST -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Sharpestminds</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="author" content="Aromal Anil" />
-    <link rel="icon" href="./img/logo.webp" sizes="16x16" />
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- Poppins Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Slick Slider -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <title>Sharpestminds</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Aromal Anil" />
+  <link rel="icon" href="./img/logo.webp" sizes="16x16" />
 
-  <body>
-    <!-- Navigation Bar -->
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet" />
+  <!-- Slick Slider -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <header>
-      <div class="logo" href="#">
-        <img src="./img/logo.webp" alt="Logo" />
-        <h4>&nbsp;&nbsp;SharpestMinds</h4>
+<body>
+  <!-- Navigation Bar -->
+
+  <header>
+    <div class="logo" href="#">
+      <img src="./img/logo.webp" alt="Logo" />
+      <h4>&nbsp;&nbsp;SharpestMinds</h4>
+    </div>
+
+    <nav class="nav-div">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#">Mentorship</a></li>
+        <li><a class="nav-link" href="#">Hire</a></li>
+        <li><a class="nav-link" href="#">Contact</a></li>
+        <li><a class="nav-link" href="#">Blog</a></li>
+        <li><a class="nav-link" href="#">FAQ</a></li>
+        <li><a class="nav-link" href="#">Login</a></li>
+      </ul>
+    </nav>
+
+    <div class="menu">
+      <img src="./img/menu.svg" alt="" class="menu-icon" id="menu" />
+    </div>
+  </header>
+
+  <div class="content">
+    <!-- Main Section -->
+
+    <main>
+      <div class="main-img">
+        <img id="hero-image" src="./img/hero-image.svg" alt="" />
       </div>
 
-      <nav class="nav-div">
-        <ul class="nav-links">
-          <li><a class="nav-link" href="#">Mentorship</a></li>
-          <li><a class="nav-link" href="#">Hire</a></li>
-          <li><a class="nav-link" href="#">Contact</a></li>
-          <li><a class="nav-link" href="#">Blog</a></li>
-          <li><a class="nav-link" href="#">FAQ</a></li>
-          <li><a class="nav-link" href="#">Login</a></li>
-        </ul>
-      </nav>
-
-      <div class="menu">
-        <img src="./img/menu.svg" alt="" class="menu-icon" id="menu" />
+      <div class="main-content">
+        <h1>
+          Find a data science mentor.<br />
+          Don't pay until you're hired.
+        </h1>
+        <p>
+          Work on a project with a professional data scientist. Prepare for
+          interviews, polish your resume, and get hired.
+        </p>
+        <div class="btn-grp">
+          <button class="primary-btn" onclick="window.location.href = '#';">
+            Find Mentor
+          </button>
+          <button class="secondary-btn" onclick="window.location.href = '#';">
+            Become Mentor
+          </button>
+        </div>
+        <p id="question">
+          Wondering which data career is right for you? &nbsp; &nbsp;
+          <a href="">Take our career quiz</a>
+        </p>
       </div>
-    </header>
+    </main>
 
-    <div class="content">
-      <!-- Main Section -->
+    <!-- Companies Section -->
 
-      <main>
-        <div class="main-img">
-          <img id="hero-image" src="./img/hero-image.svg" alt="" />
-        </div>
+    <section class="companies">
+      <p>Work with mentors from world-class companies</p>
 
-        <div class="main-content">
-          <h1>
-            Find a data science mentor.<br />
-            Don't pay until you're hired.
-          </h1>
-          <p>
-            Work on a project with a professional data scientist. Prepare for
-            interviews, polish your resume, and get hired.
-          </p>
-          <div class="btn-grp">
-            <button class="primary-btn" onclick="window.location.href = '#';">
-              Find Mentor
-            </button>
-            <button class="secondary-btn" onclick="window.location.href = '#';">
-              Become Mentor
-            </button>
-          </div>
-          <p id="question">
-            Wondering which data career is right for you? &nbsp; &nbsp;
-            <a href="">Take our career quiz</a>
-          </p>
-        </div>
-      </main>
+      <div class="company-collections">
+        <img src="./img/shopify.webp" id="shopify" alt="shopify" class="company-logo" />
+        <img src="./img/airbnb.webp" alt="airbnb" class="company-logo" />
+        <img src="./img/spotify.webp" alt="spotify" class="company-logo" />
+        <img src="./img/google.webp" alt="google" class="company-logo" />
+        <img src="./img/microsoft.webp" alt="microsoft" class="company-logo" />
+      </div>
+    </section>
 
-      <!-- Companies Section -->
-
-      <section class="companies">
-        <p>Work with mentors from world-class companies</p>
-
-        <div class="company-collections">
-          <img
-            src="./img/shopify.webp"
-            id="shopify"
-            alt="shopify"
-            class="company-logo"
-          />
-          <img src="./img/airbnb.webp" alt="airbnb" class="company-logo" />
-          <img src="./img/spotify.webp" alt="spotify" class="company-logo" />
-          <img src="./img/google.webp" alt="google" class="company-logo" />
-          <img
-            src="./img/microsoft.webp"
-            alt="microsoft"
-            class="company-logo"
-          />
-        </div>
-      </section>
-
-      <section class="block block-left">
-        <div class="block-content-left">
-          <h3 class="block-heading">Learn from a pro</h3>
-          <br /><br />
-          <p class="block-para">
-            Build a full-stack data science project with your mentor. Learn how
-            to write production code, get help when you’re stuck, and have
-            regular one-on-one calls
-          </p>
-          <br />
-          <a href="#" class="block-link">Check out some project examples</a>
-        </div>
-
-        <div class="block-img">
-          <img src="./img/video_call.svg" alt="" />
-        </div>
-      </section>
-
-      <section class="block">
-        <div class="block-img">
-          <img src="./img/invest.svg" alt="" />
-        </div>
-        <div class="block-content-right">
-          <h3 class="block-heading">Your mentor invests in you</h3>
-          <br /><br />
-          <p class="block-para">
-            Your mentor invests in your success through our income share
-            agreement. Once you land a job, you'll repay your mentor a small
-            share of your monthly salary for 12 months. If you don't land a
-            qualifying job, you won't owe a cent
-          </p>
-          <br />
-          <a href="#" class="block-link"
-            >See the FAQ to learn more about our income share agreement</a
-          >
-        </div>
-      </section>
-
-      <div class="breaker">
-        <h2>Beyond mentorship: get support at every step</h2>
+    <section class="block block-left">
+      <div class="block-content-left">
+        <h3 class="block-heading">Learn from a pro</h3>
+        <br /><br />
+        <p class="block-para">
+          Build a full-stack data science project with your mentor. Learn how
+          to write production code, get help when you’re stuck, and have
+          regular one-on-one calls
+        </p>
         <br />
-        <p>
-          Once your mentor says you're ready, SharpestMinds has your back during
-          your job search.
-        </p>
+        <a href="#" class="block-link">Check out some project examples</a>
       </div>
 
-      <section class="block block-left">
-        <div class="block-content-left">
-          <h3 class="block-heading">Resume and profile review</h3>
-          <br /><br />
-          <p class="block-para">
-            Get expert eyes on your resume and online portfolio. We’ll work with
-            you until they’re perfect
-          </p>
-          <br />
-        </div>
+      <div class="block-img">
+        <img src="./img/video_call.svg" alt="" />
+      </div>
+    </section>
 
-        <div class="block-img">
-          <img src="./img/resume.svg" alt="" />
-        </div>
-      </section>
-
-      <section class="block">
-        <div class="block-img">
-          <img src="./img/interview.svg" alt="" />
-        </div>
-        <div class="block-content-right">
-          <h3 class="block-heading">Job search support</h3>
-          <br /><br />
-          <p class="block-para">
-            Get personalized career coaching from the SharpestMinds team. Learn
-            how to reach out to companies effectively, and get connected to our
-            hiring partners
-          </p>
-          <br />
-        </div>
-      </section>
-
-      <section class="block block-left">
-        <div class="block-content-left">
-          <h3 class="block-heading">Practice interviews</h3>
-          <br /><br />
-          <p class="block-para">
-            Connect with other mentees for unlimited practice interviews. Form
-            study teams, and make friendships that can last a lifetime
-          </p>
-          <br />
-        </div>
-
-        <div class="block-img">
-          <img src="./img/practice-interview.svg" alt="" />
-        </div>
-      </section>
-
-      <section class="block">
-        <div class="block-img">
-          <img src="./img/community-meetings.svg" alt="" />
-        </div>
-        <div class="block-content-right">
-          <h3 class="block-heading">Community events</h3>
-          <br /><br />
-          <p class="block-para">
-            Share your progress and get coached through common interview
-            problems at twice-weekly office hour sessions, and attend seminars
-            on job search tactics
-          </p>
-          <br />
-        </div>
-      </section>
-
-      <section class="block block-left">
-        <div class="block-content-left">
-          <h3 class="block-heading">Salary negotiation</h3>
-          <br /><br />
-          <p class="block-para">
-            Get support throughout the salary negotiation process. On average,
-            mentees have seen increases of over $3000 in base salary from salary
-            negotiation alone
-          </p>
-          <br />
-        </div>
-
-        <div class="block-img">
-          <img src="./img/salary-negotiation.svg" alt="" />
-        </div>
-      </section>
-
-      <!-- Who is this for Section -->
-
-      <div class="who-is-this">
-        <h2>Who this is for</h2>
+    <section class="block">
+      <div class="block-img">
+        <img src="./img/invest.svg" alt="" />
+      </div>
+      <div class="block-content-right">
+        <h3 class="block-heading">Your mentor invests in you</h3>
+        <br /><br />
+        <p class="block-para">
+          Your mentor invests in your success through our income share
+          agreement. Once you land a job, you'll repay your mentor a small
+          share of your monthly salary for 12 months. If you don't land a
+          qualifying job, you won't owe a cent
+        </p>
         <br />
-        <p>
-          You'll get the most out of SharpestMinds if at least some of the
-          following are true:
+        <a href="#" class="block-link">See the FAQ to learn more about our income share agreement</a>
+      </div>
+    </section>
+
+    <div class="breaker">
+      <h2>Beyond mentorship: get support at every step</h2>
+      <br />
+      <p>
+        Once your mentor says you're ready, SharpestMinds has your back during
+        your job search.
+      </p>
+    </div>
+
+    <section class="block block-left">
+      <div class="block-content-left">
+        <h3 class="block-heading">Resume and profile review</h3>
+        <br /><br />
+        <p class="block-para">
+          Get expert eyes on your resume and online portfolio. We’ll work with
+          you until they’re perfect
         </p>
-        <ul>
-          <li>
-            ☑️ You're planning to look for a job within the next six months
-          </li>
-          <li>☑️ You don't currently have a technical job</li>
-          <li>
-            ☑️ You're able to commit between 10 to 40 hours a week over the next
-            8-12 weeks
-          </li>
-          <li>
-            ☑️ You've completed a couple of data science projects, machine
-            learning MOOCs, and/or CS or ML university courses
-          </li>
-          <li>☑️ You're comfortable writing code in Python</li>
-          <li>
-            ☑️ You've built at least one data processing pipeline, even if it's
-            simple
-          </li>
-          <li>☑️ You're based in the United States 🇺🇸 or Canada 🇨🇦</li>
-        </ul>
+        <br />
+      </div>
 
-        <p>
-          These don't all have to be true - but the more that are, the better
-          the chances that your application will be accepted by a mentor.<br />
-          If you want advice on how to prepare for the program, get in touch!
-          You can message us on chat or send us an email at
-          contact@sharpestminds.com.
+      <div class="block-img">
+        <img src="./img/resume.svg" alt="" />
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="block-img">
+        <img src="./img/interview.svg" alt="" />
+      </div>
+      <div class="block-content-right">
+        <h3 class="block-heading">Job search support</h3>
+        <br /><br />
+        <p class="block-para">
+          Get personalized career coaching from the SharpestMinds team. Learn
+          how to reach out to companies effectively, and get connected to our
+          hiring partners
+        </p>
+        <br />
+      </div>
+    </section>
+
+    <section class="block block-left">
+      <div class="block-content-left">
+        <h3 class="block-heading">Practice interviews</h3>
+        <br /><br />
+        <p class="block-para">
+          Connect with other mentees for unlimited practice interviews. Form
+          study teams, and make friendships that can last a lifetime
+        </p>
+        <br />
+      </div>
+
+      <div class="block-img">
+        <img src="./img/practice-interview.svg" alt="" />
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="block-img">
+        <img src="./img/community-meetings.svg" alt="" />
+      </div>
+      <div class="block-content-right">
+        <h3 class="block-heading">Community events</h3>
+        <br /><br />
+        <p class="block-para">
+          Share your progress and get coached through common interview
+          problems at twice-weekly office hour sessions, and attend seminars
+          on job search tactics
+        </p>
+        <br />
+      </div>
+    </section>
+
+    <section class="block block-left">
+      <div class="block-content-left">
+        <h3 class="block-heading">Salary negotiation</h3>
+        <br /><br />
+        <p class="block-para">
+          Get support throughout the salary negotiation process. On average,
+          mentees have seen increases of over $3000 in base salary from salary
+          negotiation alone
+        </p>
+        <br />
+      </div>
+
+      <div class="block-img">
+        <img src="./img/salary-negotiation.svg" alt="" />
+      </div>
+    </section>
+
+    <!-- Who is this for Section -->
+
+    <div class="who-is-this">
+      <h2>Who this is for</h2>
+      <br />
+      <p>
+        You'll get the most out of SharpestMinds if at least some of the
+        following are true:
+      </p>
+      <ul>
+        <li>
+          ☑️ You're planning to look for a job within the next six months
+        </li>
+        <li>☑️ You don't currently have a technical job</li>
+        <li>
+          ☑️ You're able to commit between 10 to 40 hours a week over the next
+          8-12 weeks
+        </li>
+        <li>
+          ☑️ You've completed a couple of data science projects, machine
+          learning MOOCs, and/or CS or ML university courses
+        </li>
+        <li>☑️ You're comfortable writing code in Python</li>
+        <li>
+          ☑️ You've built at least one data processing pipeline, even if it's
+          simple
+        </li>
+        <li>☑️ You're based in the United States 🇺🇸 or Canada 🇨🇦</li>
+      </ul>
+
+      <p>
+        These don't all have to be true - but the more that are, the better
+        the chances that your application will be accepted by a mentor.<br />
+        If you want advice on how to prepare for the program, get in touch!
+        You can message us on chat or send us an email at
+        contact@sharpestminds.com.
+      </p>
+    </div>
+
+    <!-- Testimonial Slider -->
+
+    <div class="slider">
+      <div class="slider-item">
+        <div class="slider-img-div">
+          <img src="./img/customers/customer-1.jpeg" alt="" class="slider-img" />
+          <h3 class="customer-name">Cheryl To</h3>
+          <p class="customer-title"><i>Data Scientist at RBC</i></p>
+        </div>
+        <p class="slider-text">
+          I went from zero job offers to 4 jobs offers in a couple of months.
+          The mentee community, the networking and the technical support are
+          second to none. This is the best platform for any data scientist
+          that wants to grow.
         </p>
       </div>
 
-      <!-- Testimonial Slider -->
-
-      <div class="slider">
-        <div class="slider-item">
-          <div class="slider-img-div">
-            <img
-              src="./img/customers/customer-1.jpeg"
-              alt=""
-              class="slider-img"
-            />
-            <h3 class="customer-name">Cheryl To</h3>
-            <p class="customer-title"><i>Data Scientist at RBC</i></p>
-          </div>
-          <p class="slider-text">
-            I went from zero job offers to 4 jobs offers in a couple of months.
-            The mentee community, the networking and the technical support are
-            second to none. This is the best platform for any data scientist
-            that wants to grow.
+      <div class="slider-item">
+        <div class="slider-img-div">
+          <img src="./img/customers/customer-2.jpg" alt="" class="slider-img" />
+          <h3 class="customer-name">Dyllan McCreary</h3>
+          <p class="customer-title">
+            <i>Data Scientist at ThinkData Works</i>
           </p>
         </div>
-
-        <div class="slider-item">
-          <div class="slider-img-div">
-            <img
-              src="./img/customers/customer-2.jpg"
-              alt=""
-              class="slider-img"
-            />
-            <h3 class="customer-name">Dyllan McCreary</h3>
-            <p class="customer-title">
-              <i>Data Scientist at ThinkData Works</i>
-            </p>
-          </div>
-          <p class="slider-text">
-            My mentor helped me fine-tune my skills and worked with me to build
-            the confidence I needed to ACE my data science interviews. He worked
-            tirelessly to recommend me to companies for which he felt I was a
-            good fit.
-          </p>
-        </div>
-
-        <div class="slider-item">
-          <div class="slider-img-div">
-            <img
-              src="./img/customers/customer-3.jpg"
-              alt=""
-              class="slider-img"
-            />
-            <h3 class="customer-name">Omar Nada</h3>
-            <p class="customer-title">
-              <i>Senior ML Engineer at Vathys (YC W18)</i>
-            </p>
-          </div>
-          <p class="slider-text">
-            I have been getting messages from recruiters all over the place. You
-            guys have completely changed my life around, went from 0 leads to
-            recruiters seeking me out for interviews. What you have pulled off
-            is actually amazing!!
-          </p>
-        </div>
+        <p class="slider-text">
+          My mentor helped me fine-tune my skills and worked with me to build
+          the confidence I needed to ACE my data science interviews. He worked
+          tirelessly to recommend me to companies for which he felt I was a
+          good fit.
+        </p>
       </div>
 
-      <div class="embedded-div">
-
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a> tip 🚀🚀💤<br><br>You can use the slice method to remove the last character from a string.<br><br>Here is an example 👇👇<a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a href="https://twitter.com/hashtag/CodeNewbie?src=hash&amp;ref_src=twsrc%5Etfw">#CodeNewbie</a> <a href="https://t.co/GI2rATzCgJ">pic.twitter.com/GI2rATzCgJ</a></p>&mdash; Sai gowtham (@saigowthamr) <a href="https://twitter.com/saigowthamr/status/1219222523839041536?ref_src=twsrc%5Etfw">January 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I just uploaded a new video! (Learn CSS Pseudo Elements In 8 Minutes) <a href="https://t.co/UCbwiZB1u8">https://t.co/UCbwiZB1u8</a></p>&mdash; Web Dev Simplified (@DevSimplified) <a href="https://twitter.com/DevSimplified/status/1204449304150233088?ref_src=twsrc%5Etfw">December 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝙋𝙖𝙧𝙚𝙣𝙩𝙨 : u need to make us proud. <br>𝙏𝙚𝙖𝙘𝙝𝙚𝙧 : u need to study.<br>𝙋𝙖𝙧𝙩𝙣𝙚𝙧 : u need to look good. <br>𝙁𝙧𝙞𝙚𝙣𝙙𝙨 : u need to have fun.<br>𝙒𝙤𝙧𝙡𝙙 : u need to be perfect.<br>GOD : YOU NEED TO BE YOU.</p>&mdash; A N Y A 🏋🏻‍♂️ (@Oshuus) <a href="https://twitter.com/Oshuus/status/1221100581751668736?ref_src=twsrc%5Etfw">January 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+      <div class="slider-item">
+        <div class="slider-img-div">
+          <img src="./img/customers/customer-3.jpg" alt="" class="slider-img" />
+          <h3 class="customer-name">Omar Nada</h3>
+          <p class="customer-title">
+            <i>Senior ML Engineer at Vathys (YC W18)</i>
+          </p>
+        </div>
+        <p class="slider-text">
+          I have been getting messages from recruiters all over the place. You
+          guys have completely changed my life around, went from 0 leads to
+          recruiters seeking me out for interviews. What you have pulled off
+          is actually amazing!!
+        </p>
       </div>
+    </div>
 
 
+
+    <!-- Twitter Embedded -->
+    <div class="embedded-div">
+
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr"><a
+            href="https://twitter.com/hashtag/javascript?src=hash&amp;ref_src=twsrc%5Etfw">#javascript</a> tip
+          🚀🚀💤<br><br>You can use the slice method to remove the last character from a string.<br><br>Here is an
+          example 👇👇<a
+            href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a
+            href="https://twitter.com/hashtag/CodeNewbie?src=hash&amp;ref_src=twsrc%5Etfw">#CodeNewbie</a> <a
+            href="https://t.co/GI2rATzCgJ">pic.twitter.com/GI2rATzCgJ</a></p>&mdash; Sai gowtham (@saigowthamr) <a
+          href="https://twitter.com/saigowthamr/status/1219222523839041536?ref_src=twsrc%5Etfw">January 20, 2020</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">I just uploaded a new video! (Learn CSS Pseudo Elements In 8 Minutes) <a
+            href="https://t.co/UCbwiZB1u8">https://t.co/UCbwiZB1u8</a></p>&mdash; Web Dev Simplified (@DevSimplified) <a
+          href="https://twitter.com/DevSimplified/status/1204449304150233088?ref_src=twsrc%5Etfw">December 10, 2019</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">𝙋𝙖𝙧𝙚𝙣𝙩𝙨 : u need to make us proud. <br>𝙏𝙚𝙖𝙘𝙝𝙚𝙧 : u need to
+          study.<br>𝙋𝙖𝙧𝙩𝙣𝙚𝙧 : u need to look good. <br>𝙁𝙧𝙞𝙚𝙣𝙙𝙨 : u need to have fun.<br>𝙒𝙤𝙧𝙡𝙙 : u
+          need to be perfect.<br>GOD : YOU NEED TO BE YOU.</p>&mdash; A N Y A 🏋🏻‍♂️ (@Oshuus) <a
+          href="https://twitter.com/Oshuus/status/1221100581751668736?ref_src=twsrc%5Etfw">January 25, 2020</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </div>
 
-    <!-- Footer -->
-    <footer>
-      <p>
-        Made with ❤️ by
-        <a href="http://github.com/aromalanil" target="_blank">Aromal Anil</a>
-      </p>
-    </footer>
 
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="./script.js"></script>
-  </body>
+  </div>
+
+
+
+  <!-- Call For Action Section -->
+
+
+  <div class="call-for">
+
+    <div class="inner-call">
+      <p>Level up your career.</p>
+      <button class='call-btn'  onclick="window.location.href = '#';">Find a Mentor</button>
+    </div>
+
+    <div class="inner-call">
+      <p>Invest in a future data scientist.</p>
+      <button class='call-btn'  onclick="window.location.href = '#';">Become a Mentor</button>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      Made with ❤️ by
+      <a href="http://github.com/aromalanil" target="_blank">Aromal Anil</a>
+    </p>
+  </footer>
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
 </html>

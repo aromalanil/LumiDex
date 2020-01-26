@@ -611,6 +611,7 @@ footer a {
         display: flex;
         align-items: center;
         transition: .3s;
+        transition-property: left,opacity;
     }
 
     .nav-div-visible {

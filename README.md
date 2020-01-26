@@ -1,6 +1,6 @@
 # Company Landing Page Concept
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7c6efd32-4c12-4d93-ae0e-a0ee0d8d5c97/deploy-status)](https://app.netlify.com/sites/lumidex/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e55d68eb-c2d9-4bdc-96ee-336805387457/deploy-status)](https://app.netlify.com/sites/lumidex/deploys)
 
 ![Website Mockup](https://github.com/aromalanil/Sharpestminds/blob/master/art/mockup-1.png?raw=true)
 

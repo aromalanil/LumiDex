@@ -6,7 +6,7 @@ This is a landing page made as part of an internship assignment.
 This website is not officially associated with SharpestMinds.
 
 
-Features
+## Features
 
 * Completely Responsive
 * CSS Grid & Flexbox

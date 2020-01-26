@@ -1,14 +1,19 @@
 <!-- Author : Aromal Anil -->
-<!-- Date : 23-01-2013 07:00PM IST -->
+<!-- Starting Date : 23-01-2020 07:00PM IST -->
+<!-- Finished Date : 26-01-2020 12.00PM IST -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Sharpestminds</title>
+  <title>SharpestMinds</title>
+  <meta name="author" content="Aromal Anil" />
+
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="author" content="Aromal Anil" />
   <link rel="icon" href="./img/logo.webp" sizes="16x16" />
 
   <!-- jQuery -->
@@ -21,13 +26,17 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css" />
+
+
 </head>
 
 <body>
+
+
   <!-- Navigation Bar -->
 
   <header>
-    <div class="logo" href="#">
+    <div class="logo" onclick="window.location.href = '#';">
       <img src="./img/logo.webp" alt="Logo" />
       <h4>&nbsp;&nbsp;SharpestMinds</h4>
     </div>
@@ -48,7 +57,15 @@
     </div>
   </header>
 
-  <div class="content">
+  <!-- Navigation Bar Ends -->
+
+
+
+  <!-- Whole Content Of Website -->
+  <div class="content" id='content'>
+
+
+
     <!-- Main Section -->
 
     <main>
@@ -80,6 +97,11 @@
       </div>
     </main>
 
+    <!-- Main Section Ends -->
+
+
+
+
     <!-- Companies Section -->
 
     <section class="companies">
@@ -93,6 +115,12 @@
         <img src="./img/microsoft.webp" alt="microsoft" class="company-logo" />
       </div>
     </section>
+
+    <!-- Companies Section Ends-->
+
+
+
+    <!-- Showcase Section -->
 
     <section class="block block-left">
       <div class="block-content-left">
@@ -130,6 +158,9 @@
       </div>
     </section>
 
+
+    <!-- A Breaker Content for Showcase -->
+
     <div class="breaker">
       <h2>Beyond mentorship: get support at every step</h2>
       <br />
@@ -138,6 +169,8 @@
         your job search.
       </p>
     </div>
+
+    <!-- A Breaker Content for Showcase Ends-->
 
     <section class="block block-left">
       <div class="block-content-left">
@@ -220,6 +253,11 @@
       </div>
     </section>
 
+    <!-- Showcase Section Ends -->
+
+
+
+
     <!-- Who is this for Section -->
 
     <div class="who-is-this">
@@ -258,6 +296,12 @@
         contact@sharpestminds.com.
       </p>
     </div>
+
+    <!-- Who is this for Section -->
+
+
+
+
 
     <!-- Testimonial Slider -->
 
@@ -309,9 +353,12 @@
       </div>
     </div>
 
+    <!-- Testimonial Slider Ends -->
 
 
-    <!-- Twitter Embedded -->
+
+    <!-- Twitter Embedded Section -->
+
     <div class="embedded-div">
 
       <blockquote class="twitter-tweet">
@@ -324,13 +371,6 @@
             href="https://t.co/GI2rATzCgJ">pic.twitter.com/GI2rATzCgJ</a></p>&mdash; Sai gowtham (@saigowthamr) <a
           href="https://twitter.com/saigowthamr/status/1219222523839041536?ref_src=twsrc%5Etfw">January 20, 2020</a>
       </blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">I just uploaded a new video! (Learn CSS Pseudo Elements In 8 Minutes) <a
-            href="https://t.co/UCbwiZB1u8">https://t.co/UCbwiZB1u8</a></p>&mdash; Web Dev Simplified (@DevSimplified) <a
-          href="https://twitter.com/DevSimplified/status/1204449304150233088?ref_src=twsrc%5Etfw">December 10, 2019</a>
-      </blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       <blockquote class="twitter-tweet">
         <p lang="en" dir="ltr">𝙋𝙖𝙧𝙚𝙣𝙩𝙨 : u need to make us proud. <br>𝙏𝙚𝙖𝙘𝙝𝙚𝙧 : u need to
           study.<br>𝙋𝙖𝙧𝙩𝙣𝙚𝙧 : u need to look good. <br>𝙁𝙧𝙞𝙚𝙣𝙙𝙨 : u need to have fun.<br>𝙒𝙤𝙧𝙡𝙙 : u
@@ -339,31 +379,44 @@
       </blockquote>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">I just uploaded a new video! (Learn CSS Pseudo Elements In 8 Minutes) <a
+            href="https://t.co/UCbwiZB1u8">https://t.co/UCbwiZB1u8</a></p>&mdash; Web Dev Simplified (@DevSimplified) <a
+          href="https://twitter.com/DevSimplified/status/1204449304150233088?ref_src=twsrc%5Etfw">December 10, 2019</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
+
+    <!-- Twitter Embedded Section ends-->
 
 
   </div>
+  <!-- Whole Content of Website Ends -->
 
 
 
   <!-- Call For Action Section -->
 
-
   <div class="call-for">
 
     <div class="inner-call">
       <p>Level up your career.</p>
-      <button class='call-btn'  onclick="window.location.href = '#';">Find a Mentor</button>
+      <button class='call-btn' onclick="window.location.href = '#';">Find a Mentor</button>
     </div>
 
     <div class="inner-call">
       <p>Invest in a future data scientist.</p>
-      <button class='call-btn'  onclick="window.location.href = '#';">Become a Mentor</button>
+      <button class='call-btn' onclick="window.location.href = '#';">Become a Mentor</button>
     </div>
 
   </div>
+  <!-- Call For Action Section Ends -->
+
+
 
   <!-- Footer -->
+
   <footer>
     <p>
       Made with ❤️ by
@@ -371,8 +424,15 @@
     </p>
   </footer>
 
+  <!-- Footer Ends -->
+
+
+
+  <!-- Linking Slick for Testimonial Slider -->
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- Linking Custom Javascript -->
   <script src="./script.js"></script>
+
 </body>
 
 </html>

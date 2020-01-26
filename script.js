@@ -15,7 +15,7 @@ $(document).ready(()=>
 
         //Changing Menu Icon
         let img= $('.menu-icon').attr('src');
-        $('.menu-icon').attr('src',img==='./img/menu.svg' ? './img/cross.svg' : './img/menu.svg');
+        $('.menu-icon').attr('src',img==='./img/icons/menu.svg' ? './img/icons/cross.svg' : './img/icons/menu.svg');
         
         
         //Making Side Menu Bar Visible/Invisible When Clicked On Link
@@ -23,7 +23,7 @@ $(document).ready(()=>
         {
             $('.nav-link').click(()=>{
                 $('.nav-div').removeClass('nav-div-visible');
-                $('.menu-icon').attr('src','./img/menu.svg');
+                $('.menu-icon').attr('src','./img/icons/menu.svg');
             })
         }
     })

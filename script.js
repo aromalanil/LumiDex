@@ -56,3 +56,7 @@ $(document).ready(() => {
     });
 
 })
+
+// Easter Egg
+
+console.log('%c🥚\n%cHey! you found the easter egg🥳','font-size:100px','font-size:30px');

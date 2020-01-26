@@ -513,6 +513,9 @@ footer a {
         align-items: center;
         justify-content: center;
     }
+    .main-content h1{
+        text-align: center;
+    }
 
     .main-img {
         flex: auto;
@@ -674,6 +677,7 @@ footer a {
     }
 
     .main-content h1 {
+        
         margin-bottom: 1.4rem;
         font-size: 2rem;
     }

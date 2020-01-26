@@ -1,4 +1,4 @@
-# Sharpestminds
+# Company Landing Page Concept
 
 ![Website Mockup](https://github.com/aromalanil/Sharpestminds/blob/master/art/mockup-1.png?raw=true)
 

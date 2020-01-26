@@ -7,6 +7,43 @@ author: Aromal Anil
 github: github.com/aromalanil
 ----------------------------------------------------------*/
 
+/* Custom Loader */
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader_img {
+    width: 100px;
+    animation: loaderAnimation 1.7s infinite 0s linear;
+}
+
+@keyframes loaderAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
 
 /* General Customization */
 * {
@@ -86,7 +123,8 @@ header {
     align-items: center;
     cursor: pointer;
 }
-.logo img{
+
+.logo img {
     width: 30px;
 }
 
@@ -559,7 +597,7 @@ footer a {
         top: 0;
         left: -60vw;
         opacity: 0;
-        background-color:  var(--primary-color);
+        background-color: var(--primary-color);
         width: 60vw;
         height: 100vh;
         display: flex;
@@ -632,7 +670,7 @@ footer a {
 
     .main-content h1 {
         margin-bottom: 1.4rem;
-        font-size:2rem;
+        font-size: 2rem;
     }
 
     .secondary-btn {

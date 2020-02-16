@@ -13,3 +13,7 @@ This is a landing page made as part of an internship assignment.
 * Completely Responsive
 * CSS Grid & Flexbox
 * Pure HTML and CSS
+
+## Design Inspired From
+
+[Sharpestminds](https://www.sharpestminds.com/#)

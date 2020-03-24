@@ -1,4 +1,4 @@
-</h1 align="center">Company Landing Page Concept</h1>
+<h1 align="center">Company Landing Page Concept</h1>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e55d68eb-c2d9-4bdc-96ee-336805387457/deploy-status)](https://app.netlify.com/sites/lumidex/deploys)
 
